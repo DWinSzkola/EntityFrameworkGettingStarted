@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\tad\\EntityFramework\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted.csproj": {}
+    "C:\\Users\\dawid.winogrodzki\\source\\repos\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted.csproj": {}
   },
   "projects": {
-    "K:\\tad\\EntityFramework\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted.csproj": {
+    "C:\\Users\\dawid.winogrodzki\\source\\repos\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\tad\\EntityFramework\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted.csproj",
+        "projectUniqueName": "C:\\Users\\dawid.winogrodzki\\source\\repos\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted.csproj",
         "projectName": "EntityFrameworkGettingStarted",
-        "projectPath": "K:\\tad\\EntityFramework\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted.csproj",
+        "projectPath": "C:\\Users\\dawid.winogrodzki\\source\\repos\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted.csproj",
         "packagesPath": "C:\\Users\\dawid.winogrodzki\\.nuget\\packages\\",
-        "outputPath": "K:\\tad\\EntityFramework\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted\\obj\\",
+        "outputPath": "C:\\Users\\dawid.winogrodzki\\source\\repos\\EntityFrameworkGettingStarted\\EntityFrameworkGettingStarted\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

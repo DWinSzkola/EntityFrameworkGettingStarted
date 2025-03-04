@@ -16,11 +16,24 @@ namespace EntityFrameworkGettingStarted
 
             var dbContext = new CompanyDbContext(connectionString);
 
-            var employess = dbContext.EMP.ToList(); 
+            var employess = dbContext.EMP.Include(i=> i.Dept).ToList(); 
             foreach(var emp in dbContext.EMP)
             {
-                Console.WriteLine(emp.EmpName);
+                //Console.WriteLine(emp.Dept.DeptName);
             }
+            var departaments = dbContext.DEPT
+                .Include(d=>d.Manager)
+                .ToList();
+            foreach (var dept in departaments)
+            {
+                Console.WriteLine($"{ dept.DeptName} Manager: {dept.Manager.EmpName}");
+            }
+            var managers = dbContext.EMP.Include(e => e.ManagerDepts).ToList();
+            foreach(var man in managers)
+            {
+                //Console.WriteLine($"{man.EmpName} {man.ManagerDepts.Count()>1 ? man.ManagerDepts.FirstOrDefault() }");
+            }
+
         }
     }
 }

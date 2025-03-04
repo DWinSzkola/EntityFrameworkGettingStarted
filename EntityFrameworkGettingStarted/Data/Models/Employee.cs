@@ -14,5 +14,8 @@ namespace EntityFrameworkGettingStarted.Data.Models
         public decimal Salary { get; set; }
         public int? DeptID { get; set; }
         public int? LocationID { get; set; }
+        
+        public virtual Department? Dept { get; set; }
+        public virtual ICollection<Department> ManagerDepts { get; set; }
     }
 }
