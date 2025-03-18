@@ -30,6 +30,7 @@ namespace EntityFrameworkGettingStarted.Data
                 entity.HasKey((e) => e.EmpID);
                 entity.ToTable("EMP");
                 entity.HasOne(d => d.Dept).WithMany(d=>d.Emps).HasForeignKey(d=>d.DeptID);
+                entity.HasOne(d => d.Location).WithMany(l => l.Employess).HasForeignKey(d => d.LocationID);
             });
             modelBuilder.Entity<Department>(entity =>
             {
@@ -37,10 +38,17 @@ namespace EntityFrameworkGettingStarted.Data
                 entity.ToTable("DEPT");
                 entity.HasOne(d => d.Manager).WithMany(e => e.ManagerDepts).HasForeignKey(d => d.ManagerID);
             });
+            modelBuilder.Entity<Location>(entity =>
+            {
+                entity.HasKey((e) => e.LocationID);
+                entity.ToTable("LOCATION");
+            });
+            
         }
 
         public virtual DbSet<Employee> EMP { get; set; }
         public virtual DbSet<Department> DEPT { get; set; }
+        public virtual DbSet<Location> LOCATION { get; set; }
 
     }
 }

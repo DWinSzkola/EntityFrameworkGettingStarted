@@ -17,5 +17,6 @@ namespace EntityFrameworkGettingStarted.Data.Models
         
         public virtual Department? Dept { get; set; }
         public virtual ICollection<Department> ManagerDepts { get; set; }
+        public virtual Location? Location { get; set; }
     }
 }
