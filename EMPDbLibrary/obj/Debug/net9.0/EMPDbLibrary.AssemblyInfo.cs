@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("EntityFrameworkGettingStarted")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("EMPDbLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+298ca8693576567fb2276207e3ee5957f016098f")]
-[assembly: System.Reflection.AssemblyProductAttribute("EntityFrameworkGettingStarted")]
-[assembly: System.Reflection.AssemblyTitleAttribute("EntityFrameworkGettingStarted")]
+[assembly: System.Reflection.AssemblyProductAttribute("EMPDbLibrary")]
+[assembly: System.Reflection.AssemblyTitleAttribute("EMPDbLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.
